@@ -1,6 +1,5 @@
 .header {
     width: 100%;
-
     color: white;
     position: relative;
 }
@@ -36,8 +35,6 @@
     border-radius: 4px;
 }
 
-
-
 form.search-form {
     display: inline-block;
 }
@@ -47,7 +44,6 @@ input[type=search] {
     height: 36px;
     border-radius: 5px 0px 0px 5px;
     padding: 0 10px;
-
 }
 
 button[type=submit] {
@@ -73,12 +69,10 @@ a.menu-link {
     color: black;
 }
 
-
 .header a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -108,8 +102,6 @@ a.menu-link {
     font-size: 16px;
     background-color: white;
     border: 1px solid #3B82F6;
-
-
     width: 152px;
     height: 36px;
     border-radius: 4px;
