@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+
+    color: white;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 5px 1rem;
+}
+
+.header-top {
+    background-color: #1E293B;
+    height: 52px;
+    padding-top: 5px;
+}
+
+.header-bottom {
+    padding: 24px 0px;
+}
+
+.header-button_enter {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-button_add {
+    background-color: #3B82F6;
+    width: 179px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+
+
+form.search-form {
+    display: inline-block;
+}
+
+input[type=search] {
+    width: 734px;
+    height: 36px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 10px;
+
+}
+
+button[type=submit] {
+    height: 36px;
+    background-color: #3B82F6;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+    color: white;
+}
+
+ul.nav-menu {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+li.menu-item {
+    margin-right: 15px;
+}
+
+a.menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.header a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 17px;
+}
+
+.header-category {
+
+    width: 100px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header li {
+    margin-right: 1rem;
+}
+
+.header ul {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #3B82F6;
+
+
+    width: 152px;
+    height: 36px;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding-inline-start: 0px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1E293B;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    color: #1E293B;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+hr {
+    border: none;
+    background-color: #E2E8F0;
+    color: #E2E8F0;
+    height: 1px;
+}
