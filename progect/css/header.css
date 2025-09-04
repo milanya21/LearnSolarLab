@@ -1,16 +1,12 @@
 .header {
+    position: relative;
     width: 100%;
     color: white;
-    position: relative;
 }
 
 .container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    max-width: 1296px;
     margin: 0 auto;
-    padding: 5px 1rem;
+    max-width: 1296px;
 }
 
 .header-top {
@@ -19,39 +15,64 @@
     padding-top: 5px;
 }
 
-.header-bottom {
-    padding: 24px 0px;
+.header-top-active {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
 
-.header-button_enter {
+.header-top-active-signin {
     display: inline-flex;
     align-items: center;
 }
 
-.header-button_add {
-    background-color: #3B82F6;
+.header-top-active-add {
+    display: block;
     width: 179px;
     height: 32px;
     border-radius: 4px;
+    background-color: #3B82F6;
+}
+
+.header-bottom {
+    padding: 24px 0px;
+}
+
+.header-bottom-active {
+    display: flex;
+    justify-content: flex-end;
 }
 
 form.search-form {
     display: inline-block;
 }
 
-input[type=search] {
+input[type="search"] {
     width: 734px;
     height: 36px;
-    border-radius: 5px 0px 0px 5px;
     padding: 0 10px;
+    border-radius: 5px 0px 0px 5px;
 }
 
-button[type=submit] {
+.header-bottom-active-category {
     height: 36px;
-    background-color: #3B82F6;
+    width: 152px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #3B82F6;
+    font-size: 14px;
+    color: #3B82F6;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.header-bottom-active-search {
+    height: 36px;
+    width: 91px;
     border-radius: 0px 5px 5px 0px;
+    border: 1px solid #3B82F6;
     font-size: 14px;
     color: white;
+    background-color: #3B82F6;
 }
 
 ul.nav-menu {
@@ -80,7 +101,6 @@ a.menu-link {
 }
 
 .header-category {
-
     width: 100px;
     height: 20px;
     border-radius: 4px;
@@ -91,22 +111,17 @@ a.menu-link {
     list-style-type: none;
     display: flex;
     gap: 1rem;
+    padding: 10px 20px;
+    width: 152px;
+    height: 36px;
+    border: 1px solid #3B82F6;
+    border-radius: 4px;
+    background-color: white;
+    padding-inline-start: 0px;
 }
 
 .header li {
     margin-right: 1rem;
-}
-
-.header ul {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: white;
-    border: 1px solid #3B82F6;
-    width: 152px;
-    height: 36px;
-    border-radius: 4px;
-    margin-right: 10px;
-    padding-inline-start: 0px;
 }
 
 h1 {
@@ -118,7 +133,7 @@ h1 {
 
 h3 {
     color: #1E293B;
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 10px;
 }
 
